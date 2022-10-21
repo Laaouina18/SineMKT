@@ -52,6 +52,47 @@ p {
 	font-size:16px;
     line-height: 1.8;
 }
+.contact-section {
+    padding-top: 8vh;
+    width: 90%;
+    margin: auto auto;
+    margin-bottom: 10vh;
+  }
+  .contact-section button{
+        background: orange;
+        color: white;
+        padding: 1em 2em;
+        border-radius: 7px;
+  }
+  .contact-section h1 {
+    font-size: 3rem;
+  }
+  .contact-section p {
+    width: 70%;
+    font-size: 1.4rem;
+  }
+  .contact-section .names-cnt {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+  }
+  .contact-section input {
+    height: 5vh;
+  }
+  .contact-section input, .contact-section textarea {
+    resize: none;
+    padding: 20px;
+    border: none;
+    margin: 10px 0;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.087);
+    border-radius: 7px;
+  }
+  .contact-section textarea {
+    width: 100%;
+  }
+  .contact-section .contact-from {
+    width: 80%;
+  }
 img{border:none;max-width:100%; height:auto;}
 ul{
 	padding: 0;
@@ -86,11 +127,12 @@ html,body{height: 100%;}
     font-size: 30px;
     font-weight: 500;
 }
+
 .image-logo{
     width: 100%;
     height: 86%;
-    margin-top: 18px;
-    margin-left: 20px;
+    margin-top: 9px;
+    margin-left: 66px;
     
 }
 .section-header h2 span{text-transform: lowercase;}

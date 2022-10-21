@@ -33,6 +33,7 @@
 	nav.navbar.bootsnav .navbar-brand {padding: 25px;}
 	nav.navbar.bootsnav ul.nav > li > a {padding: 15px 0px;border: transparent;}
 	.attr-nav > ul > li > a {padding: 20px 15px;}
+
 }/*max-width:992px*/
 
 @media screen and (max-width:991px){
